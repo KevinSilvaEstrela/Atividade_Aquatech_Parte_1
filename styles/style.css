@@ -1,5 +1,6 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
 
+/*Index*/
 body {
     margin: 0;
     font-family: sans-serif;
@@ -126,4 +127,95 @@ body {
 
 .footer h4 {
     margin-bottom: 0;
+}
+
+
+/*Tela de Login*/
+
+
+.login .container {
+    border: #e3b062;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
+
+.card-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcdc;
+    width: 440px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-login h2 {
+    color: #e4005a;
+}
+
+.card-login input {
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    border-color: #32b9cd;
+    text-align: center;
+}
+
+.formulario {
+    color: #e4005a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario .campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+button {
+    border-radius: 5px;
+    color: white;
+    font-style: bold;
+    background-color: #e4005a;
+    width: 90px;
+    height: 30px;
+}
+
+
+
+/*Tela de Cadastro*/
+
+
+.card-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcdc;
+    width: 440px;
+    height: 90%;
+    border-radius: 10px;   
+}
+
+.card-cadastro input {
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    border-color: #32b9cd;
+    text-align: center;
+}
+
+.card-cadastro h2 {
+    color: #e4005a;
 }
